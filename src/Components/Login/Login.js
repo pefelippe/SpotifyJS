@@ -1,4 +1,5 @@
 import React from "react";
+import { loginUrl } from "../../spotify";
 import "./Login.css";
 
 function Login() {
@@ -8,7 +9,7 @@ function Login() {
         src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
         alt=""
       />
-      <a> Login With Spotify</a>
+      <a href={loginUrl}> Login With Spotify</a>
     </div>
   );
 }
